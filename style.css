@@ -55,7 +55,9 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
+article {
+  padding-left: 3rem;
+}
 .entire{
     display: flex;
     gap: 5rem;
@@ -108,7 +110,7 @@ svg {
     color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .entire {
         flex-direction: column;
         height: 100vh;
