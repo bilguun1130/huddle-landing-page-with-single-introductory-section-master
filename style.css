@@ -64,7 +64,9 @@
 .logo {
     margin: 3rem;
 }
-
+.main-content img {
+  min-width: 40vw;
+}
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -76,6 +78,10 @@ h1 {
     font-weight: 400;
     color: gainsboro;
     margin-bottom: 1rem;
+}
+
+.description {
+  padding-right: 7rem;
 }
 button {
     color: var(--violet);
@@ -112,6 +118,7 @@ svg {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
     button {
         padding: 2% 30%;
